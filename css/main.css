@@ -1,0 +1,153 @@
+/*DEVELOPER: David Valencia IS117-006, Spring 2023 */
+body {
+    background-image: url(https://images.wallpapersden.com/image/download/4k-league-of-legends-2020_a21qbmqUmZqaraWkpJRmaGhrrWxrbQ.jpg);
+}
+
+.nav-link {
+    color: white !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.nav-item {
+    margin-left: auto;
+    margin-right: 4em;
+}
+.navbar-brand{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#maintitle {
+    font-size: 50px;
+    font-family: cursive;
+    color: #86b7fe;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2); 
+    text-align: left;
+    background: rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background: rgba(0, 0, 0.2, 0);
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+
+#contact-h2 {
+    font-family: cursive;
+    color: #bacbe6;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+    margin-left: 20px;
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px dot-dash floralwhite;
+    margin-bottom: 20px;
+    resize: vertical;
+    box-sizing: border-box;
+    border-radius: 7px;
+    color: #bacbe6;
+}
+
+input[type=submit] {
+    background-color: #bacbe6;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: teal;
+    color: black;
+    box-sizing: border-box;
+}
+.column {
+    display: inline-block;
+    width: 20%;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.column2 {
+    display: inline-block;
+    width: 50%;
+    margin-top: -27px;
+    margin-bottom: 25px;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: left;
+    border: 2px dot-dash #bacbe6;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #d8dadc;
+    color: rgb(52, 52, 52);
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+

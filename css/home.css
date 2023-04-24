@@ -1,0 +1,97 @@
+/*DEVELOPER: David Valencia IS117-006, Spring 2023 */
+body     {
+    font-family: verdana, arial, sans-serif;
+    margin:0;
+    padding: 0;
+    background-color: #FFFDED;
+    border:0px;
+}
+
+
+h1  {
+    font: bold 1.5em Tahoma, arial, sans-serif;
+    font-style: italic;
+    font-size: 30pt;
+    padding: 1em 1em 1em 130px;;
+    background-repeat: no-repeat;
+    padding: 1em 1em 1em 100px;
+    text-align: center;
+}
+
+
+h2{
+    text-align: center;
+}
+
+#textblock   {
+    width: 1415px;
+    border: 4px solid #000000;
+    padding: 10px 10px;
+    margin: auto;
+    font-size: 100%;
+    text-align: left;
+    height: 1350px;
+    border-radius: 7px;
+}
+
+
+.homeImage{
+    width: 60%;
+    height: 40%;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+}
+.homecolumn {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 36px;
+    text-align: left;
+    background: rgba(112, 40, 40, 0);
+    font: bold 1.5em Tahoma, arial, sans-serif;
+    font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
